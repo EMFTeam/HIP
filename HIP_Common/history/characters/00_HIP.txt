@@ -39,7 +39,7 @@
 			# localisation is also dynamically-substituted by the installer.
 		}
 	}
-	1.28.1 = {
+	28.1.1 = {
 		effect = {
 			# Isis only becomes immortal at age 28 so that she may retain her
 			# stunning good looks and remain forever 28 (rather than forever 0).
