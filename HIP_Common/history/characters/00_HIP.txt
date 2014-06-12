@@ -1,0 +1,49 @@
+606060 = {
+	name="Isis"
+	dynasty=0 # TODO: Real HIP dynasty
+	religion="hip_religion"
+	culture="hip_culture"
+	martial=60
+	diplomacy=60
+	intrigue=60
+	stewardship=60
+	learning=60
+	disallow_random_traits=yes
+	
+	1.1.1 = {
+		birth=yes
+	}
+	1.1.3 = {
+		effect = {
+			set_global_flag = HIP
+			
+			# TODO:
+			# Installer dynamically substitutes the appropriate combination
+			# of set_global_flags from here for each installed mod component.
+			
+			# TODO:
+			# Initiate various game state initialization common value-adds for
+			# HIP mods, such as things like populating all provinces with a
+			# province variable that represents their population density upon
+			# the selected map (holdings / land area, but normalized land area--
+			# derived from provinces.bmp and friends-- in general being the key
+			# independent variable in this example).
+			
+			# TODO:
+			# Initiate various scenario initialization events in installed mods,
+			# based upon aforementioned global flag configuration.
+			
+			# TODO:
+			# Display welcome event for HIP, with a detailed summary of all the
+			# mod components currently employed in this install. That event's
+			# localisation is also dynamically-substituted by the installer.
+		}
+	}
+	1.28.1 = {
+		effect = {
+			# Isis only becomes immortal at age 28 so that she may retain her
+			# stunning good looks and remain forever 28 (rather than forever 0).
+			add_trait = isis
+		}
+	}
+}
