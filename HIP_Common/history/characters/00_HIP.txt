@@ -1,5 +1,6 @@
 606060 = {
 	name="Isis"
+	female = yes
 	dynasty=0 # TODO: Real HIP dynasty
 	religion="hip_religion"
 	culture="hip_culture"
