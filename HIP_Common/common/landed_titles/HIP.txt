@@ -6,7 +6,8 @@ e_hip = {
 	culture = hip_culture
 	religion = hip_religion
 	
-	# TODO: title/foa
+	title_female = HIP_TITLE
+	foa = HIP_TITLE_FOA
 	
 	landless = yes
 	primary = yes

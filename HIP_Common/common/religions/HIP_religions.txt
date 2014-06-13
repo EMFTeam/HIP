@@ -23,7 +23,7 @@ hip_religion_group = {
 		color = { 0.1 0.1 0.1 }
 		
 		god_names = {
-			GOD_GEB GOD_NUT
+			GOD_ATUM GOD_GEB GOD_NUT GOD_SHU GOD_TEFNUT GOD_OSIRIS GOD_SET GOD_NEPHTHYS GOD_ISIS
 		}
 		
 		evil_god_names = {
