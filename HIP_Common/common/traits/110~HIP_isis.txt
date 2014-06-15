@@ -28,12 +28,7 @@ isis = {
 	immortal = yes
 	cannot_marry = yes
 	cannot_inherit = yes
-	
-	health = 6.0
-	
-	cached = yes # Not sure if cached = yes is required/desired along with unique = yes
-	unique = yes
-	
+	cached = yes
 	customizer = no
 	random = no
 }
