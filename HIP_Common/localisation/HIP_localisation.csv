@@ -6,6 +6,7 @@ emperor_female_hip_culture;Queen;;;;;;;;;;;;;x
 ######################################18_RELIGION;;;;;;;;;;;;;;x
 hip_religion_group;Nu;;;;;;;;;;;;;x
 hip_religion;Ma'at;;;;;;;;;;;;;x
+hip_religion_DESC;Unified cosmological conceptualization of truth, balance, order, law, morality, and justice as one regulating force over all things, mortal and deity alike, in this universe. Ma'at, whose dualistic counterpart is commonly known as Isfet, carries out the order potential given spark by the original Creator, a proto-deity commonly known as Paradox. Of the Great Pesedjet, the faces of Ra worship Ma'at and stand forever sentinel against Isfet's entrance into Duat in order to righteously execute their vision for the mortal world. Isis embodies the union of their vision and, through her sight, she touches all mortals with the Great Pesedjet's infinite story.;;;;;;;;;;;;;x
 THE_BOOK_OF_THE_DEAD;The Book of the Dead;;;;;;;;;;;;;x
 GOD_ATUM;Atum;;;;;;;;;;;;;x
 GOD_GEB;Geb;;;;;;;;;;;;;x
@@ -22,9 +23,9 @@ HIP_TITLE;Great Goddess;;;;;;;;;;;;;x
 HIP_TITLE_FOA;Lady of Infinite Light;;;;;;;;;;;;;x
 ######################################20_TITLES;;;;;;;;;;;;;;x
 e_hip;Duat;;;;;;;;;;;;;x
-e_hip_adj;Duati;;;;;;;;;;;;;x
+e_hip_adj;Atumic;;;;;;;;;;;;;x
 b_hip;Aunu;;;;;;;;;;;;;x
-b_hip_adj;Duati;;;;;;;;;;;;;x
+b_hip_adj;Atumic;;;;;;;;;;;;;x
 ######################################20_TRAITS;;;;;;;;;;;;;;x
 isis;Mother of the Universe;;;;;;;;;;;;;x
 isis_desc;Mighty one, foremost of the goddesses. Ruler in Heaven, Queen on earth. All the gods are under her command;;;;;;;;;;;;;x
