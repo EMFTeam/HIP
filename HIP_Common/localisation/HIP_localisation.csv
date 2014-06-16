@@ -22,7 +22,15 @@ HIP_TITLE;Great Goddess;;;;;;;;;;;;;x
 HIP_TITLE_FOA;Lady of Infinite Light;;;;;;;;;;;;;x
 ######################################20_TITLES;;;;;;;;;;;;;;x
 e_hip;Duat;;;;;;;;;;;;;x
+e_hip_adj;Duati;;;;;;;;;;;;;x
 b_hip;Aunu;;;;;;;;;;;;;x
+b_hip_adj;Duati;;;;;;;;;;;;;x
 ######################################20_TRAITS;;;;;;;;;;;;;;x
 isis;Mother of the Universe;;;;;;;;;;;;;x
 isis_desc;Mighty one, foremost of the goddesses. Ruler in Heaven, Queen on earth. All the gods are under her command;;;;;;;;;;;;;x
+######################################20_MISCELLANEOUS;;;;;;;;;;;;;;x
+AI_EVENT;Oops! This event was intended for an AI's lack of eyes only!;;;;;;;;;;;;;x
+HIDE_EVENT;Oops! This event was intended to be hidden!;;;;;;;;;;;;;x
+YES;Yes;;;;;;;;;;;;;x
+NO;No;;;;;;;;;;;;;x
+NEVERMIND;Nevermind;;;;;;;;;;;;;x
