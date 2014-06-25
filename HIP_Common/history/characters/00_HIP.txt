@@ -22,22 +22,31 @@
 			# Installer dynamically substitutes the appropriate combination
 			# of set_global_flags from here for each installed mod component.
 			
+			# <MOD_COMBO_FLAGS>
+			set_global_flag = EMF
+			# </MOD_COMBO_FLAGS>
+			
 			# TODO:
 			# Initiate various game state initialization common value-adds for
 			# HIP mods, such as things like populating all provinces with a
 			# province variable that represents their population density upon
 			# the selected map (holdings / land area, but normalized land area--
 			# derived from provinces.bmp and friends-- in general being the key
-			# independent variable in this example).
-			
-			# TODO:
-			# Initiate various scenario initialization events in installed mods,
-			# based upon aforementioned global flag configuration.
+			# independent variable in this example) or whatever.
 			
 			# TODO:
 			# Display welcome event for HIP, with a detailed summary of all the
 			# mod components currently employed in this install. That event's
 			# localisation is also dynamically-substituted by the installer.
+			
+			# TODO:
+			# Initiate various scenario initialization events in installed mods,
+			# based upon aforementioned global flag configuration.
+			
+			if = {
+				limit = { has_global_flag = EMF }
+				character_event = { id = emf_startup.0 }
+			}
 		}
 	}
 	28.1.1 = {
@@ -49,16 +58,18 @@
 			
 			# Apparently, disallow_random_traits=yes doesn't preclude education
 			# traits, so clear the randomly-generated one Isis received.
+			# NOTE: This bug has been fixed by Captain Gars, so we can remove
+			#       this once the next patch is released.
 
 			character_event = { id = hip.0 }
-			
+
 			# This seems a bit more appropriate... but it's just flavor. Open Elective
 			# still replaces Isis with a randomized dude (named Adam, of course) if you
 			# console-kill her.
 
 			e_hip = {
 				add_law = enatic_succession
-				
+
 				# We're going to later force Primogeniture instead of Open Elective in order
 				# to trick the engine into thinking that her titles will not be inherited
 				# upon her death. Then, we catch her death in on_death, create a brand new
@@ -81,7 +92,7 @@
 				
 				# add_law = succ_primogeniture
 			}
-			
+
 			# Create a landless temporary title to make Isis immune to diplomatic
 			# assassination and the like, as apparently being in an unknown location
 			# makes you within DIPLO_DISTANCE of everything rather than nothing.
@@ -100,7 +111,7 @@
 				culture = ROOT
 				name = "ISIS_DIVINE_VISION" # "Goddess Isis's Divine Vision"
 				holder = ROOT
-			}			
+			}
 		}
 	}
 	1999.1.1 = {
