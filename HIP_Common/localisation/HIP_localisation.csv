@@ -30,6 +30,12 @@ ISIS_DIVINE_VISION;[Root.GetTitledFirstName]'s Divine Vision;;;;;;;;;;;;;x
 ######################################20_TRAITS;;;;;;;;;;;;;;x
 isis;Mother of the Universe;;;;;;;;;;;;;x
 isis_desc;Mighty one, foremost of the goddesses. Ruler in Heaven, Queen on earth. All the gods are under her command;;;;;;;;;;;;;x
+simply_immortal;Immortal;;;;;;;;;;;;;x
+simply_immortal_desc;;;;;;;;;;;;;;x
+simply_cannot_marry;Cannot Marry;;;;;;;;;;;;;x
+simply_cannot_marry_desc;;;;;;;;;;;;;;x
+simply_cannot_inherit;Cannot Inherit;;;;;;;;;;;;;x
+simply_cannot_inherit_desc;;;;;;;;;;;;;;x
 ######################################20_MISCELLANEOUS;;;;;;;;;;;;;;x
 AI_EVENT;Oops! This event was intended for an AI's lack of eyes only!;;;;;;;;;;;;;x
 HIDE_EVENT;Oops! This event was intended to be hidden!;;;;;;;;;;;;;x
