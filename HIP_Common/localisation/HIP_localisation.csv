@@ -1,0 +1,44 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+######################################3_CULTURES;;;;;;;;;;;;;;x
+hip_culture_group;Ennead;;;;;;;;;;;;;x
+hip_culture;Great Pesedjet;;;;;;;;;;;;;x
+emperor_female_hip_culture;Queen;;;;;;;;;;;;;x
+######################################18_RELIGION;;;;;;;;;;;;;;x
+hip_religion_group;Nu;;;;;;;;;;;;;x
+hip_religion;Ma'at;;;;;;;;;;;;;x
+hip_religion_DESC;Unified cosmological conceptualization of truth, balance, order, law, morality, and justice as one regulating force over all things, mortal and deity alike, in this universe. Ma'at, whose dualistic counterpart is commonly known as Isfet, carries out the order potential given spark by the original Creator, a proto-deity commonly known as Paradox. Of the Great Pesedjet, the faces of Ra worship Ma'at and stand forever sentinel against Isfet's entrance into Duat in order to righteously execute their vision for the mortal world. Isis embodies the union of their vision and, through her sight, she touches all mortals with the Great Pesedjet's infinite story.;;;;;;;;;;;;;x
+THE_BOOK_OF_THE_DEAD;The Book of the Dead;;;;;;;;;;;;;x
+GOD_ATUM;Atum;;;;;;;;;;;;;x
+GOD_GEB;Geb;;;;;;;;;;;;;x
+GOD_NUT;Nut;;;;;;;;;;;;;x
+GOD_SHU;Shu;;;;;;;;;;;;;x
+GOD_TEFNUT;Tefnut;;;;;;;;;;;;;x
+GOD_OSIRIS;Osiris;;;;;;;;;;;;;x
+GOD_SET;Set;;;;;;;;;;;;;x
+GOD_NEPHTHYS;Nephthys;;;;;;;;;;;;;x
+GOD_ISIS;Isis;;;;;;;;;;;;;x
+GOD_APEP;Apep;;;;;;;;;;;;;x
+######################################20_TITLE NAMES;;;;;;;;;;;;;;x
+HIP_TITLE;Great Goddess;;;;;;;;;;;;;x
+HIP_TITLE_FOA;Lady of Infinite Light;;;;;;;;;;;;;x
+######################################20_TITLES;;;;;;;;;;;;;;x
+e_hip;Duat;;;;;;;;;;;;;x
+e_hip_adj;Atumic;;;;;;;;;;;;;x
+b_hip;Aunu;;;;;;;;;;;;;x
+b_hip_adj;Atumic;;;;;;;;;;;;;x
+ISIS_DIVINE_VISION;[Root.GetTitledFirstName]'s Divine Vision;;;;;;;;;;;;;x
+######################################20_TRAITS;;;;;;;;;;;;;;x
+isis;Mother of the Universe;;;;;;;;;;;;;x
+isis_desc;Mighty one, foremost of the goddesses. Ruler in Heaven, Queen on earth. All the gods are under her command;;;;;;;;;;;;;x
+simply_immortal;Immortal;;;;;;;;;;;;;x
+simply_immortal_desc;;;;;;;;;;;;;;x
+simply_cannot_marry;Cannot Marry;;;;;;;;;;;;;x
+simply_cannot_marry_desc;;;;;;;;;;;;;;x
+simply_cannot_inherit;Cannot Inherit;;;;;;;;;;;;;x
+simply_cannot_inherit_desc;;;;;;;;;;;;;;x
+######################################20_MISCELLANEOUS;;;;;;;;;;;;;;x
+AI_EVENT;Oops! This event was intended for an AI's lack of eyes only!;;;;;;;;;;;;;x
+HIDE_EVENT;Oops! This event was intended to be hidden!;;;;;;;;;;;;;x
+YES;Yes;;;;;;;;;;;;;x
+NO;No;;;;;;;;;;;;;x
+NEVERMIND;Nevermind;;;;;;;;;;;;;x
