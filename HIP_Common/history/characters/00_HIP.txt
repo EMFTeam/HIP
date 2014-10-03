@@ -4,11 +4,11 @@
 	dynasty=0 # TODO: Real HIP dynasty
 	religion="hip_religion"
 	culture="hip_culture"
-	diplomacy=6
-	martial=12
-	stewardship=18
-	intrigue=24
-	learning=36
+	diplomacy=4
+	martial=8
+	stewardship=16
+	intrigue=32
+	learning=64
 	disallow_random_traits=yes
 	
 	1.1.1 = {

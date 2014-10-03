@@ -2,7 +2,7 @@
 namespace = hip
 
 # hip.0
-# Perform annual maintenance on Isis (on_actions hook is up to selected mods)
+# Perform annual maintenance on Isis (on_actions hook is up to main mod)
 character_event = {
 	id = hip.0
 	desc = AI_EVENT
@@ -17,36 +17,133 @@ character_event = {
 	
 	immediate = {
 	
-		# Generally Enlighten and then send any [player] wards back "home"
+		# Don't let Isis somehow change culture or religion.
+		if = {
+			limit = { not = { culture = hip_culture } }
+			culture = hip_culture
+		}
+		if = {
+			limit = { not = { religion = hip_religion } }
+			religion = hip_religion
+		}
+	
+		# Generally "Enlighten" and then send any [player] wards back "home"
+		# HINT: Don't even try getting Isis to educate your children. Well,
+		# maybe kids in your court that you don't like.
 		any_ward = {
 			character_event = { id = hip.1 }
 		}
 		
-		# Get rid of any lovers, consorts, spouses, or children (would have to be done by some event)
+		# No lovers, consorts, spouses, or children (would be due to some event)
 		any_lover = {
-			death = {
-				killer = ROOT
-				death_reason = death_sacrificed
-			}
+			death = { killer = ROOT death_reason = death_sacrificed }
 		}
 		any_consort = {
-			death = {
-				killer = ROOT
-				death_reason = death_sacrificed
-			}
+			death = { killer = ROOT death_reason = death_sacrificed }
 		}
 		any_spouse = {
-			death = {
-				killer = ROOT
-				death_reason = death_sacrificed
-			}
+			death = { killer = ROOT death_reason = death_sacrificed }
 		}
 		any_child = {
-			death = {
-				killer = ROOT
-				death_reason = death_sacrificed
-			}
+			death = { killer = ROOT death_reason = death_sacrificed }
 		}
+		
+		# Just in case someone accidentally gives a title to Isis and then locks
+		# vassals into her untouchable realm. [Again, console or event.]
+		any_vassal = {
+			set_defacto_liege = THIS
+		}
+		
+		# Isis is not your friend. Isis sees all.
+		# Even the way you look at her portrait.
+		any_friend = { remove_friend = ROOT }
+		any_rival = { remove_rival = ROOT }
+		
+		# She can't inherit, but don't let her keep any extra titles anyway.
+		any_demesne_title = {
+			limit = {
+				temporary = no
+				not = {
+					title = e_hip
+					title = b_hip
+				}
+			}
+			destroy_landed_title = THIS
+		}
+		
+		# Nor should she have claims on titles.
+		any_claim = {
+			remove_claim = ROOT
+		}
+		
+		# In theory, most vanilla mechanisms by which Isis can gain a trait
+		# have been disabled (in EMF), but we'll cover them here in any case:
+		
+		remove_trait = stressed
+		remove_trait = depressed
+		remove_trait = lunatic
+		remove_trait = possessed
+		remove_trait = ill
+		remove_trait = pneumonic
+		remove_trait = syphilitic
+		remove_trait = leper
+		remove_trait = wounded
+		remove_trait = maimed
+		remove_trait = infirm
+		remove_trait = incapable
+		remove_trait = drunkard
+		remove_trait = has_tuberculosis
+		remove_trait = has_typhoid_fever
+		remove_trait = has_typhus
+		remove_trait = has_bubonic_plague
+		remove_trait = has_measles
+		remove_trait = has_small_pox
+		remove_trait = kinslayer
+		remove_trait = homosexual
+		remove_trait = celibate
+		remove_trait = hedonist
+		remove_trait = scholar
+		remove_trait = gardener
+		remove_trait = mystic
+		remove_trait = impaler
+		remove_trait = duelist
+		remove_trait = hunter
+		remove_trait = poet
+		remove_trait = falconer
+		remove_trait = lustful
+		remove_trait = chaste
+		remove_trait = gluttonous
+		remove_trait = temperate
+		remove_trait = greedy
+		remove_trait = charitable
+		remove_trait = slothful
+		remove_trait = diligent
+		remove_trait = envious
+		remove_trait = kind
+		remove_trait = wroth
+		remove_trait = patient
+		remove_trait = proud
+		remove_trait = humble
+		remove_trait = deceitful
+		remove_trait = honest
+		remove_trait = craven
+		remove_trait = brave
+		remove_trait = shy
+		remove_trait = gregarious
+		remove_trait = ambitious
+		remove_trait = content
+		remove_trait = arbitrary
+		remove_trait = just
+		remove_trait = cynical
+		remove_trait = zealous
+		remove_trait = paranoid
+		remove_trait = trusting
+		remove_trait = cruel
+		remove_trait = scarred
+		remove_trait = eunuch
+		remove_trait = blinded
+		remove_trait = has_aztec_disease
+		remove_trait = decadent
 	}
 	
 	option = { name = OK }
@@ -78,8 +175,11 @@ character_event = {
 		remove_trait = genius
 		remove_trait = quick
 		remove_trait = slow
-		add_trait = imbecile
-		add_trait = lunatic
+		
+		random_list = {
+			50 = { add_trait = imbecile }
+			50 = { add_trait = lunatic }
+		}
 		
 		random_playable_ruler = {
 			limit = {
@@ -101,8 +201,8 @@ character_event = {
 				ai = yes
 				not = { ROOT = { has_character_flag = isis_spat_me_out } }
 			}
-			reverse_banish = ROOT
 			ROOT = { set_guardian = PREV }
+			reverse_banish = ROOT
 			ROOT = { imprison = PREV }
 			ROOT = { set_character_flag = isis_spat_me_out }
 		}
