@@ -2,35 +2,111 @@
 namespace = hip
 
 # hip.0
-# Reset all of a character's possible education traits
+# Perform annual maintenance on Isis (on_actions hook is up to selected mods)
 character_event = {
 	id = hip.0
-	desc = HIDE_EVENT
+	desc = AI_EVENT
 	hide_window = yes
 	is_triggered_only = yes
 	
+	only_independent = yes
+	
+	trigger = {
+		has_landed_title = e_hip
+	}
+	
 	immediate = {
-		remove_trait = amateurish_plotter
-		remove_trait = flamboyant_schemer
-		remove_trait = intricate_webweaver
-		remove_trait = elusive_shadow
-		remove_trait = naive_appeaser
-		remove_trait = underhanded_rogue
-		remove_trait = charismatic_negotiator
-		remove_trait = grey_eminence
-		remove_trait = indulgent_wastrel
-		remove_trait = thrifty_clerk
-		remove_trait = fortune_builder
-		remove_trait = midas_touched
-		remove_trait = misguided_warrior
-		remove_trait = tough_soldier
-		remove_trait = skilled_tactician
-		remove_trait = brilliant_strategist
-		remove_trait = detached_priest
-		remove_trait = martial_cleric
-		remove_trait = scholarly_theologian
-		remove_trait = mastermind_theologian
+	
+		# Generally Enlighten and then send any [player] wards back "home"
+		any_ward = {
+			character_event = { id = hip.1 }
+		}
+		
+		# Get rid of any lovers, consorts, spouses, or children (would have to be done by some event)
+		any_lover = {
+			death = {
+				killer = ROOT
+				death_reason = death_sacrificed
+			}
+		}
+		any_consort = {
+			death = {
+				killer = ROOT
+				death_reason = death_sacrificed
+			}
+		}
+		any_spouse = {
+			death = {
+				killer = ROOT
+				death_reason = death_sacrificed
+			}
+		}
+		any_child = {
+			death = {
+				killer = ROOT
+				death_reason = death_sacrificed
+			}
+		}
 	}
 	
 	option = { name = OK }
+}
+
+
+# hip.1
+# Get rid of wards.
+#
+# ROOT = ward
+# FROM = isis
+character_event = {
+	id = hip.1
+	desc = HIDE_EVENT
+	hide_window = yes
+	is_triggered_only = yes
+
+	option = {
+		name = OK
+		
+		# Told you guys she was persuasive, particularly to young, fresh minds
+		# that are ready to see the Truth of Ma'at.
+		culture = FROM
+		religion = FROM
+		
+		# Since this can still be exploited to get unlimited wards at once,
+		# we do need to give a "minor" malus that lasts.
+		
+		remove_trait = genius
+		remove_trait = quick
+		remove_trait = slow
+		add_trait = imbecile
+		add_trait = lunatic
+		
+		random_playable_ruler = {
+			limit = {
+				ai = no
+				or = {
+					dynasty = ROOT
+					is_close_relative = ROOT
+				}
+			}
+			
+			reverse_opinion = { who = ROOT modifier = opinion_angry years = 100 multiplier = 4 }
+			ROOT = { set_guardian = PREV }
+			reverse_banish = ROOT
+			ROOT = { set_character_flag = isis_spat_me_out }
+		}
+		
+		random_playable_ruler = {
+			limit = {
+				ai = yes
+				not = { ROOT = { has_character_flag = isis_spat_me_out } }
+			}
+			reverse_banish = ROOT
+			ROOT = { set_guardian = PREV }
+			ROOT = { imprison = PREV }
+			ROOT = { set_character_flag = isis_spat_me_out }
+		}
+		
+		clr_character_flag = isis_spat_me_out
+	}
 }
