@@ -804,6 +804,71 @@ spriteTypes =
 		name = "GFX_persepolis_built"
 		texturefile = "gfx/event_pictures/persepolis_built.tga"
 		clicksound = generic_click_04
+	}
+	spriteType = {
+		name = "GFX_evt_garden_latin"
+		texturefile = "gfx/event_pictures/garden_latin.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_italian_group"
+		texturefile = "gfx/event_pictures/garden_latin.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_iberian"
+		texturefile = "gfx/event_pictures/garden_latin.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_castle_construction_iberian"
+		texturefile = "gfx/event_pictures/castle_tower_iberian.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_castle_construction_north_african"
+		texturefile = "gfx/event_pictures/castle_tower_iberian.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_castle_construction_andalusian_arabic"
+		texturefile = "gfx/event_pictures/castle_tower_iberian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_west_african"
+		texturefile = "gfx/event_pictures/tuscan_country_west_african.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_tuscan_country_east_african"
+		texturefile = "gfx/event_pictures/tuscan_country_west_african.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_maiden_serindian"
+		texturefile = "gfx/event_pictures/maiden_serindian.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_maiden_karluk"
+		texturefile = "gfx/event_pictures/maiden_serindian.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_maiden_kirghiz"
+		texturefile = "gfx/event_pictures/maiden_serindian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_indo_aryan_group"
+		texturefile = "gfx/event_pictures/indian_market.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_market_dravidian_group"
+		texturefile = "gfx/event_pictures/indian_market.tga"
+		allwaystransparent = yes
 	}	
 	
 	
@@ -939,6 +1004,11 @@ spriteTypes =
 	spriteType = {
 		name = "GFX_evt_small_town_sinic"
 		texturefile = "gfx/event_pictures/small_town_sinic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_stone_church_sinic"
+		texturefile = "gfx/event_pictures/stone_church_soa_sinic.tga"
 		allwaystransparent = yes
 	}
 }
