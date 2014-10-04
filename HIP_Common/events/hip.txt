@@ -63,10 +63,8 @@ character_event = {
 		any_demesne_title = {
 			limit = {
 				temporary = no
-				not = {
-					title = e_hip
-					title = b_hip
-				}
+				higher_tier_than = count
+				not = { title = e_hip }
 			}
 			destroy_landed_title = THIS
 		}
