@@ -66,6 +66,13 @@
 		
 		effect = {
 
+			# Despite Captain Gars claiming that he fixed disallow_random_traits=yes to
+			# no longer hand-out education traits, we must still remove her randomly-
+			# generated education traits (and potentially leadership traits) manually.
+			
+			character_event = { id = hip.2 } # Remove education traits
+			character_event = { id = hip.3 } # Remove leadership traits
+		
 			e_hip = {
 				# This seems a bit more appropriate... but it's just flavor. Open Elective
 				# still replaces Isis with a randomized dude (named Adam, of course) if you

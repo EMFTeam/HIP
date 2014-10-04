@@ -141,7 +141,6 @@ character_event = {
 		remove_trait = eunuch
 		remove_trait = blinded
 		remove_trait = has_aztec_disease
-		remove_trait = decadent
 	}
 	
 	option = { name = OK }
@@ -188,7 +187,7 @@ character_event = {
 				}
 			}
 			
-			reverse_opinion = { who = ROOT modifier = opinion_angry years = 100 multiplier = 4 }
+			reverse_opinion = { who = ROOT modifier = opinion_angry years = 20 multiplier = 4 }
 			ROOT = { set_guardian = PREV }
 			reverse_banish = ROOT
 			ROOT = { set_character_flag = isis_spat_me_out }
@@ -207,4 +206,74 @@ character_event = {
 		
 		clr_character_flag = isis_spat_me_out
 	}
+}
+
+
+# hip.2
+# Remove all education traits. Useful for character generation.
+character_event = {
+	id = hip.2
+	desc = HIDE_EVENT
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		remove_trait = amateurish_plotter
+		remove_trait = flamboyant_schemer
+		remove_trait = intricate_webweaver
+		remove_trait = elusive_shadow
+		remove_trait = naive_appeaser
+		remove_trait = underhanded_rogue
+		remove_trait = charismatic_negotiator
+		remove_trait = grey_eminence
+		remove_trait = indulgent_wastrel
+		remove_trait = thrifty_clerk
+		remove_trait = fortune_builder
+		remove_trait = midas_touched
+		remove_trait = misguided_warrior
+		remove_trait = tough_soldier
+		remove_trait = skilled_tactician
+		remove_trait = brilliant_strategist
+		remove_trait = detached_priest
+		remove_trait = martial_cleric
+		remove_trait = scholarly_theologian
+		remove_trait = mastermind_theologian
+	}
+	
+	option = { name = OK }
+}
+
+
+# hip.3
+# Remove all leadership traits. Useful for character generation.
+character_event = {
+	id = hip.3
+	desc = HIDE_EVENT
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		remove_trait = light_foot_leader
+		remove_trait = heavy_infantry_leader
+		remove_trait = cavalry_leader
+		remove_trait = inspiring_leader
+		remove_trait = trickster
+		remove_trait = organizer
+		remove_trait = defensive_leader
+		remove_trait = experimenter
+		remove_trait = flanker
+		remove_trait = aggressive_leader
+		remove_trait = siege_leader
+		remove_trait = flat_terrain_leader
+		remove_trait = rough_terrain_leader
+		remove_trait = mountain_terrain_leader
+		remove_trait = desert_terrain_leader
+		remove_trait = holy_warrior
+		remove_trait = unyielding_leader
+		remove_trait = narrow_flank_leader
+		remove_trait = war_elephant_leader
+		remove_trait = jungle_terrain_leader
+	}
+	
+	option = { name = OK }
 }
