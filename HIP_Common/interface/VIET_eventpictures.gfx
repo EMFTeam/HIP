@@ -869,7 +869,17 @@ spriteTypes =
 		name = "GFX_evt_market_dravidian_group"
 		texturefile = "gfx/event_pictures/indian_market.tga"
 		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_north_germanic"
+		texturefile = "gfx/event_pictures/tuscan_country_north_germanic.tga"
+		allwaystransparent = yes
 	}	
+	spriteType = {
+		name = "GFX_evt_tuscan_country_finno_ugric"
+		texturefile = "gfx/event_pictures/tuscan_country_north_germanic.tga"
+		allwaystransparent = yes
+	}
 	
 	
 	#Buddhist	
@@ -916,6 +926,16 @@ spriteTypes =
 	spriteType = {
 		name = "GFX_evt_death_buddhist"
 		texturefile = "gfx/event_pictures/death_eastern_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_west_african"
+		texturefile = "gfx/event_pictures/african_savanna.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_east_african"
+		texturefile = "gfx/event_pictures/african_savanna.tga"
 		allwaystransparent = yes
 	}
 
