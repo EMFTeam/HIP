@@ -880,6 +880,11 @@ spriteTypes =
 		texturefile = "gfx/event_pictures/tuscan_country_north_germanic.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_small_town_central_germanic"
+		texturefile = "gfx/event_pictures/small_town_central_germanic.tga"
+		allwaystransparent = yes
+	}
 	
 	
 	#Buddhist	
