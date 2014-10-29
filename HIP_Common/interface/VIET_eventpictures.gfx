@@ -546,6 +546,11 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_evt_skyrim_forest_altaic"
+		texturefile = "gfx/event_pictures/skyrim_forest_serindian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_evt_skyrim_forest_iranian"
 		texturefile = "gfx/event_pictures/skyrim_forest_serindian.tga"
 		allwaystransparent = yes
@@ -906,6 +911,43 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_evt_castle_construction_muslim"
+		texturefile = "gfx/event_pictures/castle_tower_muslim.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_castle_construction_zoroastrian_group"
+		texturefile = "gfx/event_pictures/castle_tower_muslim.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_castle_construction_arabic"
+		texturefile = "gfx/event_pictures/castle_tower_muslim.tga"
+		allwaystransparent = yes
+	}		
+	spriteType = {
+		name = "GFX_evt_castle_construction_iranian"
+		texturefile = "gfx/event_pictures/castle_tower_muslim.tga"
+		allwaystransparent = yes
+	}			
+	spriteType = {
+		name = "GFX_evt_castle_construction_turkish"
+		texturefile = "gfx/event_pictures/castle_tower_muslim.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_castle_construction_indo_aryan_group"
+		texturefile = "gfx/event_pictures/castle_tower_indo_aryan_group.tga"
+		allwaystransparent = yes
+	}	
+	spriteType = {
+		name = "GFX_evt_castle_construction_dravidian_group"
+		texturefile = "gfx/event_pictures/castle_tower_indo_aryan_group.tga"
+		allwaystransparent = yes
+	}	
+	
+	#FOOD (Yes it is quite important)
+	spriteType = {
 		name = "GFX_evt_VIET_food"
 		texturefile = "gfx/event_pictures/VIET_food.tga"
 		allwaystransparent = yes
@@ -1165,6 +1207,11 @@ spriteTypes =
 	spriteType = {
 		name = "GFX_evt_stone_church_sinic"
 		texturefile = "gfx/event_pictures/stone_church_soa_sinic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cathedral_sinic"
+		texturefile = "gfx\\event_pictures\cathedral_soa_sinic.tga"
 		allwaystransparent = yes
 	}
 }
