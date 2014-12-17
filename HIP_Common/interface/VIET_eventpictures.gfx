@@ -561,16 +561,6 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_evt_village_at_night_east_slavic"
-		texturefile = "gfx/event_pictures/nighttown_finno_ugric.tga"
-		allwaystransparent = yes
-	}
-	spriteType = {
-		name = "GFX_evt_village_at_night_north_germanic"
-		texturefile = "gfx/event_pictures/nighttown_finno_ugric.tga"
-		allwaystransparent = yes
-	}
-	spriteType = {
 		name = "GFX_evt_tropicana"
 		texturefile = "gfx/event_pictures/tropicana.tga"
 		allwaystransparent = yes
@@ -1211,7 +1201,187 @@ spriteTypes =
 	}
 	spriteType = {
 		name = "GFX_evt_cathedral_sinic"
-		texturefile = "gfx\\event_pictures\cathedral_soa_sinic.tga"
+		texturefile = "gfx/event_pictures/cathedral_soa_sinic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_her_smile"
+		texturefile = "gfx/event_pictures/her_smile.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_indo_aryan_group"
+		texturefile = "gfx/event_pictures/small_town_indo_aryan_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_dravidian_group"
+		texturefile = "gfx/event_pictures/small_town_indo_aryan_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_latin"
+		texturefile = "gfx/event_pictures/small_town_latin.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_italian_group"
+		texturefile = "gfx/event_pictures/small_town_latin.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_market_central_germanic"
+		texturefile = "gfx/event_pictures/market_central_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_travel_west_germanic"
+		texturefile = "gfx/event_pictures/travel_west_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_travel_welsh"
+		texturefile = "gfx/event_pictures/travel_west_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_travel_breton"
+		texturefile = "gfx/event_pictures/travel_west_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_travel_cumbric"
+		texturefile = "gfx/event_pictures/travel_west_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_travel_cornish"
+		texturefile = "gfx/event_pictures/travel_west_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_travel_norsebriton"
+		texturefile = "gfx/event_pictures/travel_west_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_gallic"
+		texturefile = "gfx/event_pictures/small_town_gallic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_french"
+		texturefile = "gfx/event_pictures/small_town_gallic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_old_frankish"
+		texturefile = "gfx/event_pictures/small_town_gallic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_norman"
+		texturefile = "gfx/event_pictures/small_town_gallic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_occitan"
+		texturefile = "gfx/event_pictures/small_town_gallic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_village_at_night_north_germanic"
+		texturefile = "gfx/event_pictures/nighttown_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_village_at_night_east_slavic"
+		texturefile = "gfx/event_pictures/nighttown_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_altaic"
+		texturefile = "gfx/event_pictures/tuscan_country_altaic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_melee_altaic"
+		texturefile = "gfx/event_pictures/knights_melee_battle_altaic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_shaman_social_advice"
+		texturefile = "gfx/event_pictures/shaman_social_advice.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_shaman_realm_advice"
+		texturefile = "gfx/event_pictures/shaman_realm_advice.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_shaman_personal_advice"
+		texturefile = "gfx/event_pictures/shaman_personal_advice.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_garden_sinic"
+		texturefile = "gfx/event_pictures/garden_sinic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_baltic"
+		texturefile = "gfx/event_pictures/skyrim_forest_baltic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_west_slavic"
+		texturefile = "gfx/event_pictures/skyrim_forest_baltic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_north_germanic"
+		texturefile = "gfx/event_pictures/skyrim_forest_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_east_slavic"
+		texturefile = "gfx/event_pictures/skyrim_forest_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_burning_house_sinic"
+		texturefile = "gfx/event_pictures/burning_house_sinic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cathedral_serindian"
+		texturefile = "gfx/event_pictures/cathedral_serindian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cathedral_serindian"
+		texturefile = "gfx/event_pictures/cathedral_serindian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cathedral_sinic"
+		texturefile = "gfx/event_pictures/cathedral_sinic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_trade_post_republic_sinic"
+		texturefile = "gfx/event_pictures/republic_trade_post_sinic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_volcanic_eruption"
+		texturefile = "gfx/event_pictures/volcanic_eruption.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_volcanic_eruption_extra"
+		texturefile = "gfx/event_pictures/volcanic_eruption_extra.tga"
 		allwaystransparent = yes
 	}
 }
