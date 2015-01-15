@@ -3,7 +3,7 @@ hip_culture_group = {
 	graphical_culture = westerngfx
 
 	hip_culture = {
-		graphical_culture = frankishgfx
+		graphical_culture = hipculturegfx
 		color = { 0.1 0.1 0.1 }
 
 		male_names = {
