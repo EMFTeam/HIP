@@ -1374,6 +1374,36 @@ spriteTypes =
 		texturefile = "gfx/event_pictures/volcanic_eruption_extra.tga"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_evt_child_talking_altaic"
+		texturefile = "gfx/event_pictures/Children_talking_altaic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_burning_house_zoroastrian_group"
+		texturefile = "gfx/event_pictures/burning_house_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_burning_house_gnostic_group"
+		texturefile = "gfx/event_pictures/burning_house_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_burning_house_iranian"
+		texturefile = "gfx/event_pictures/burning_house_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_burning_house_serindian"
+		texturefile = "gfx/event_pictures/burning_house_zoroastrian_group.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ancient_egypt"
+		texturefile = "gfx/event_pictures/ancient_egypt.tga"
+		allwaystransparent = yes
+	}
 }
 
 
