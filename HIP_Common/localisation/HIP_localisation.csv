@@ -3,6 +3,9 @@
 hip_culture_group;Ennead;;;;;;;;;;;;;x
 hip_culture;Great Pesedjet;;;;;;;;;;;;;x
 emperor_female_hip_culture;Queen;;;;;;;;;;;;;x
+######################################5_EVENTS;;;;;;;;;;;;;;x
+hip.4.desc;A yawning void opens beneath my feet and a voice, greater than any I have ever heard or imagined, thunders in my mind:\n\nMAGIC IS MY DOMAIN. YOUR MEDDLING WILL BE YOUR UNDOING.\n\nThe walls around me shake, my vision blurs, and I feel nothing but pain.;;;;;;;;;;;;;x
+hip.4.a;What have I done?;;;;;;;;;;;;;x
 ######################################18_RELIGION;;;;;;;;;;;;;;x
 hip_religion_group;Nu;;;;;;;;;;;;;x
 hip_religion;Ma'at;;;;;;;;;;;;;x
