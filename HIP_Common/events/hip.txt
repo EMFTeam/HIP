@@ -46,6 +46,9 @@ character_event = {
 		}
 		any_child = {
 			death = { killer = ROOT death_reason = death_sacrificed }
+			real_father = {
+				long_character_event = { id = hip.4 }
+			}
 		}
 		
 		# Just in case someone accidentally gives a title to Isis and then locks
@@ -276,4 +279,21 @@ character_event = {
 	}
 	
 	option = { name = OK }
+}
+
+# hip.4
+# Don't impregnate The Great Goddess Isis
+long_character_event = {
+	id = hip.4
+	desc = hip.4.desc
+	picture = GFX_evt_ancient_egypt
+	is_triggered_only = yes
+	
+	option = {
+		name = hip.4.a
+		add_trait = eunuch
+		add_trait = blinded
+		add_trait = lunatic
+		add_trait = incapable
+	}
 }
