@@ -121,6 +121,16 @@
 			}
 		}
 	}
+	769.1.1 = {
+		set_global_flag = 769_start
+	}
+	867.1.1 = {
+		clr_global_flag = 769_start
+		set_global_flag = 867_start
+	}
+	1066.1.1 = {
+		clr_global_flag = 867_start
+	}
 	1999.1.1 = {
 		death = yes
 	}
