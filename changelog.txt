@@ -1,5 +1,6 @@
 1.0
 	Removed the title b_hip
+	Allowed for Isis to be male (currently happens when she's console-killed)
 
 
 ~~ previous changes undocumented ~~
