@@ -18,6 +18,3 @@ e_hip = {
 		Isis
 	}
 }
-
-# Where the fun's at.
-b_hip = { }
