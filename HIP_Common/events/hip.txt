@@ -45,7 +45,6 @@ character_event = {
 			death = { killer = ROOT death_reason = death_sacrificed }
 		}
 		any_child = {
-			death = { killer = ROOT death_reason = death_sacrificed }
 			real_father = {
 				long_character_event = { id = hip.4 }
 			}
@@ -289,8 +288,29 @@ long_character_event = {
 	picture = GFX_evt_ancient_egypt
 	is_triggered_only = yes
 	
+	trigger = {
+		FROM = {
+			any_child = {
+				is_alive = yes
+				real_father = {
+					character = ROOT
+				}
+			}
+		}
+	}
+	
 	option = {
 		name = hip.4.a
+		FROM = {
+			any_child = {
+				limit = {
+					real_father = {
+						character = ROOT
+					}
+				}
+				death = { killer = FROM death_reason = death_sacrificed }
+			}
+		}
 		add_trait = eunuch
 		add_trait = blinded
 		add_trait = lunatic
