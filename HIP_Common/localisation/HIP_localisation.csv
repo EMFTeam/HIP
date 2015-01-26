@@ -6,6 +6,8 @@ emperor_female_hip_culture;Queen;;;;;;;;;;;;;x
 ######################################5_EVENTS;;;;;;;;;;;;;;x
 hip.4.desc;A yawning void opens beneath my feet and a voice, greater than any I have ever heard or imagined, thunders in my mind:\n\nMAGIC IS MY DOMAIN. YOUR MEDDLING WILL BE YOUR UNDOING.\n\nThe walls around me shake, my vision blurs, and I feel nothing but pain.;;;;;;;;;;;;;x
 hip.4.a;What have I done?;;;;;;;;;;;;;x
+######################################14_NICKNAMES;;;;;;;;;;;;;;x
+nick_the_divine_lady;the Divine Lady;;;;;;;;;;;;;x
 ######################################18_RELIGION;;;;;;;;;;;;;;x
 hip_religion_group;Nu;;;;;;;;;;;;;x
 hip_religion;Ma'at;;;;;;;;;;;;;x

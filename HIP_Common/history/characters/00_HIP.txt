@@ -120,6 +120,9 @@
 				holder = ROOT
 			}
 		}
+		# Isis has her own nickname
+		# This should be reapplied should she ever die and be regenerated
+		give_nickname = nick_the_divine_lady
 	}
 	769.1.1 = {
 		set_global_flag = 769_start
