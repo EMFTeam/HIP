@@ -8,6 +8,9 @@ hip.4.desc;A yawning void opens beneath my feet and a voice, greater than any I 
 hip.4.a;What have I done?;;;;;;;;;;;;;x
 ######################################14_NICKNAMES;;;;;;;;;;;;;;x
 nick_the_divine_lady;the Divine Lady;;;;;;;;;;;;;x
+######################################15_OPINIONS;;;;;;;;;;;;;;x
+opinion_admires_liege;Admires Liege;;;;;;;;;;;;;x
+opinion_respects_courtier_tradition;Respects Courtier's Traditions;;;;;;;;;;;;;x
 ######################################18_RELIGION;;;;;;;;;;;;;;x
 hip_religion_group;Nu;;;;;;;;;;;;;x
 hip_religion;Ma'at;;;;;;;;;;;;;x
@@ -41,7 +44,7 @@ simply_cannot_marry;Cannot Marry;;;;;;;;;;;;;x
 simply_cannot_marry_desc;;;;;;;;;;;;;;x
 simply_cannot_inherit;Cannot Inherit;;;;;;;;;;;;;x
 simply_cannot_inherit_desc;;;;;;;;;;;;;;x
-######################################20_MISCELLANEOUS;;;;;;;;;;;;;;x
+######################################21_UNSORTED;;;;;;;;;;;;;;x
 AI_EVENT;Oops! This event was intended for an AI's lack of eyes only!;;;;;;;;;;;;;x
 HIDE_EVENT;Oops! This event was intended to be hidden!;;;;;;;;;;;;;x
 YES;Yes;;;;;;;;;;;;;x
