@@ -13,7 +13,7 @@ namespace = LoR
 # Patriarchate of Antioch
 character_event = {
 	id = LoR.200
-	desc = EVTDESCLoR.200
+	desc = EVTDESCLoR.200
 	picture = GFX_evt_bishop_byzantine
 	
 	ai = no
@@ -43,7 +43,7 @@ character_event = {
 # Patriarchate of Jerusalem
 character_event = {
 	id = LoR.201
-	desc = EVTDESCLoR.201
+	desc = EVTDESCLoR.201
 	picture = GFX_evt_bishop_byzantine
 	
 	ai = no
@@ -73,7 +73,7 @@ character_event = {
 # Patriarchate of Alexandria
 character_event = {
 	id = LoR.202
-	desc = EVTDESCLoR.202
+	desc = EVTDESCLoR.202
 	picture = GFX_evt_bishop_byzantine
 	
 	ai = no
@@ -103,7 +103,7 @@ character_event = {
 # Patriarchate of Rome
 character_event = {
 	id = LoR.203
-	desc = EVTDESCLoR.203
+	desc = EVTDESCLoR.203
 	picture = GFX_evt_bishop_byzantine
 	
 	ai = no
@@ -136,7 +136,7 @@ character_event = {
 narrative_event = {
 	id = LoR.210
 	title = EVTNAMELoR.210
-	desc = EVTDESCLoR.210
+	desc = EVTDESCLoR.210
 	
 	picture = GFX_evt_icon
 	
@@ -180,7 +180,7 @@ narrative_event = {
 narrative_event = {
 	id = LoR.211
 	title = EVTNAMELoR.210
-	desc = EVTDESCLoR.210
+	desc = EVTDESCLoR.210
 	
 	picture = GFX_evt_icon
 	

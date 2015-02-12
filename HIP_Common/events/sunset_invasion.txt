@@ -12,7 +12,7 @@ namespace = SSI
 # First Contact - Beads and Feathers
 province_event = {
 	id = SSI.1
-	desc = EVTDESC_SSI_001
+	desc = EVTDESC_SSI_001
 	
 	picture = GFX_evt_aztec_explorers
 	border = GFX_event_normal_frame_war
@@ -77,7 +77,7 @@ province_event = {
 narrative_event = {
 	id = SSI.2
 	title = EVTNAME_SSI_002
-	desc = EVTDESC_SSI_002
+	desc = EVTDESC_SSI_002
 	major = yes
 	
 	picture = GFX_evt_aztec_explorers
@@ -105,7 +105,7 @@ narrative_event = {
 # First Landing of the Aztecs
 province_event = {
 	id = SSI.3
-	desc = EVTDESC_SSI_003
+	desc = EVTDESC_SSI_003
 	
 	picture = GFX_evt_battle_mesoamerican
 	border = GFX_event_normal_frame_war
@@ -140,7 +140,7 @@ province_event = {
 narrative_event = {
 	id = SSI.4
 	title = EVTNAME_SSI_004
-	desc = EVTDESC_SSI_004
+	desc = EVTDESC_SSI_004
 	major = yes
 	hide_new = yes
 	
@@ -885,7 +885,7 @@ narrative_event = {
 # Second Landing of the Aztecs
 province_event = {
 	id = SSI.5
-	desc = EVTDESC_SSI_005
+	desc = EVTDESC_SSI_005
 	
 	picture = GFX_evt_aztec_arrival
 	border = GFX_event_normal_frame_war
@@ -935,7 +935,7 @@ province_event = {
 narrative_event = {
 	id = SSI.6
 	title = EVTNAME_SSI_006
-	desc = EVTDESC_SSI_006
+	desc = EVTDESC_SSI_006
 	major = yes
 	hide_new = yes
 	
@@ -1546,7 +1546,7 @@ character_event = {
 narrative_event = {
 	id = SSI.105
 	title = EVTNAME_SSI_105
-	desc = EVTDESC_SSI_105
+	desc = EVTDESC_SSI_105
 	
 	picture = GFX_evt_aztec_arrival
 	border = GFX_event_narrative_frame_war
@@ -1583,7 +1583,7 @@ narrative_event = {
 narrative_event = {
 	id = SSI.30
 	title = EVTNAME_SSI_030
-	desc = EVTDESC_SSI_030
+	desc = EVTDESC_SSI_030
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_narrative_frame_war
@@ -1627,7 +1627,7 @@ narrative_event = {
 narrative_event = {
 	id = SSI.31
 	title = EVTNAME_SSI_031
-	desc = EVTDESC_SSI_031
+	desc = EVTDESC_SSI_031
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_narrative_frame_war
@@ -1671,7 +1671,7 @@ narrative_event = {
 narrative_event = {
 	id = SSI.35
 	title = EVTNAME_SSI_035
-	desc = EVTDESC_SSI_035
+	desc = EVTDESC_SSI_035
 	
 	picture = GFX_evt_aztec_explorers
 	border = GFX_event_narrative_frame_war
@@ -1714,7 +1714,7 @@ narrative_event = {
 # Aztecs Hold Iceland
 character_event = {
 	id = SSI.40
-	desc = EVTDESC_SSI_040
+	desc = EVTDESC_SSI_040
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_war
@@ -1757,7 +1757,7 @@ character_event = {
 # Aztecs Hold Ireland
 character_event = {
 	id = SSI.41
-	desc = EVTDESC_SSI_041
+	desc = EVTDESC_SSI_041
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_war
@@ -1805,7 +1805,7 @@ character_event = {
 # Aztecs Hold Britain
 character_event = {
 	id = SSI.42
-	desc = EVTDESC_SSI_042
+	desc = EVTDESC_SSI_042
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_war
@@ -1862,7 +1862,7 @@ character_event = {
 # Aztecs Hold London
 character_event = {
 	id = SSI.43
-	desc = EVTDESC_SSI_043
+	desc = EVTDESC_SSI_043
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_war
@@ -1905,7 +1905,7 @@ character_event = {
 # Aztecs Hold Paris
 character_event = {
 	id = SSI.44
-	desc = EVTDESC_SSI_044
+	desc = EVTDESC_SSI_044
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_war
@@ -1948,7 +1948,7 @@ character_event = {
 # Aztecs Hold Rome
 character_event = {
 	id = SSI.45
-	desc = EVTDESC_SSI_045
+	desc = EVTDESC_SSI_045
 	
 	picture = GFX_evt_rome_falls
 	border = GFX_event_normal_frame_war
@@ -1991,7 +1991,7 @@ character_event = {
 # Aztecs Hold Constantinople
 character_event = {
 	id = SSI.46
-	desc = EVTDESC_SSI_046
+	desc = EVTDESC_SSI_046
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_war
@@ -2034,7 +2034,7 @@ character_event = {
 # Aztecs Hold Cordoba
 character_event = {
 	id = SSI.47
-	desc = EVTDESC_SSI_047
+	desc = EVTDESC_SSI_047
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_war
@@ -2077,7 +2077,7 @@ character_event = {
 # Aztecs Hold Cairo
 character_event = {
 	id = SSI.48
-	desc = EVTDESC_SSI_048
+	desc = EVTDESC_SSI_048
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_normal_frame_war
@@ -2120,7 +2120,7 @@ character_event = {
 # Aztecs Sacrifice Prisoner
 character_event = {
 	id = SSI.60
-	desc = EVTDESC_SSI_060
+	desc = EVTDESC_SSI_060
 	
 	picture = GFX_evt_bishop_aztec
 	border = GFX_event_normal_frame_war
@@ -2174,7 +2174,7 @@ character_event = {
 # Liege Informed of Sacrifice
 character_event = {
 	id = SSI.62
-	desc = EVTDESC_SSI_060
+	desc = EVTDESC_SSI_060
 	
 	picture = GFX_evt_bishop_aztec
 	border = GFX_event_normal_frame_war
@@ -2190,7 +2190,7 @@ character_event = {
 narrative_event = {
 	id = SSI.70
 	title = EVTNAME_SSI_070
-	desc = EVTDESC_SSI_070
+	desc = EVTDESC_SSI_070
 	
 	picture = GFX_evt_aztec_explorers
 	border = GFX_event_narrative_frame_war
@@ -2233,7 +2233,7 @@ narrative_event = {
 narrative_event = {
 	id = SSI.71
 	title = EVTNAME_SSI_071
-	desc = EVTDESC_SSI_071
+	desc = EVTDESC_SSI_071
 	
 	picture = GFX_evt_throne_room_mesoamerican
 	border = GFX_event_narrative_frame_war
@@ -2277,7 +2277,7 @@ narrative_event = {
 # Aztecs Sacrifice Prisoner (Aztec perspective)
 character_event = {
 	id = SSI.72
-	desc = EVTDESC_SSI_072
+	desc = EVTDESC_SSI_072
 	
 	picture = GFX_evt_bishop_aztec
 	border = GFX_event_normal_frame_war
