@@ -288,6 +288,7 @@ character_event = {
 		remove_trait = narrow_flank_leader
 		remove_trait = war_elephant_leader
 		remove_trait = jungle_terrain_leader
+		remove_trait = winter_soldier
 	}
 	
 	option = { name = OK }
