@@ -481,6 +481,16 @@ spriteTypes =
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_evt_small_town_italian_group"
+		texturefile = "gfx/event_pictures/small_town_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_latin"
+		texturefile = "gfx/event_pictures/small_town_north_germanic.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_evt_moorish_decor_indo_aryan_group"
 		texturefile = "gfx/event_pictures/indian_palace.tga"
 		allwaystransparent = yes

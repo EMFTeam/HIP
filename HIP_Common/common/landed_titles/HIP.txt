@@ -6,6 +6,7 @@ e_hip = {
 	culture = hip_culture
 	religion = hip_religion
 	
+	title = HIP_TITLE
 	title_female = HIP_TITLE
 	foa = HIP_TITLE_FOA
 	
@@ -17,7 +18,7 @@ e_hip = {
 	female_names = {
 		Isis
 	}
+	male_names = {
+		Isis
+	}
 }
-
-# Where the fun's at.
-b_hip = { }

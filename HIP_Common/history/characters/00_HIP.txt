@@ -4,11 +4,11 @@
 	dynasty=0 # TODO: Real HIP dynasty
 	religion="hip_religion"
 	culture="hip_culture"
-	martial=60
-	diplomacy=60
-	intrigue=60
-	stewardship=60
-	learning=60
+	diplomacy=64
+	martial=64
+	stewardship=64
+	intrigue=64
+	learning=64
 	disallow_random_traits=yes
 	
 	1.1.1 = {
@@ -16,11 +16,19 @@
 	}
 	1.1.3 = {
 		effect = {
-			set_global_flag = HIP
+			set_global_flag = HIP # Always set.
 			
 			# TODO:
 			# Installer dynamically substitutes the appropriate combination
 			# of set_global_flags from here for each installed mod component.
+			
+			# If EMF, set_global_flag = EMF
+			# If PB, set_global_flag = project_balance
+			# If SWMH, set_global_flag = SWMH
+			# If ArkoCoA, set_global_flag = ArkoCoA
+			# If ArkoInterface, set_global_flag = ArkoInt
+			# If VIET, set_global_flag = VIET
+			# If VIET Immersion, set_global_flag = VIET_Immersion
 			
 			# <MOD_COMBO_FLAGS>
 			set_global_flag = EMF
@@ -41,7 +49,9 @@
 			
 			# TODO:
 			# Initiate various scenario initialization events in installed mods,
-			# based upon aforementioned global flag configuration.
+			# based upon aforementioned global flag configuration.  EMF does this.
+			# PB still needs to be converted to do this (rather than use its own
+			# startup character).
 			
 			if = {
 				limit = { has_global_flag = EMF }
@@ -50,24 +60,24 @@
 		}
 	}
 	28.1.1 = {
+		# Isis only becomes immortal at age 28 so that she may retain her
+		# stunning good looks and remain forever 28 (rather than forever 0).
+		trait = isis
+		
 		effect = {
-			# Isis only becomes immortal at age 28 so that she may retain her
-			# stunning good looks and remain forever 28 (rather than forever 0).
 
-			add_trait = isis
+			# Despite Captain Gars claiming that he fixed disallow_random_traits=yes to
+			# no longer hand-out education traits, we must still remove her randomly-
+			# generated education traits (and potentially leadership traits) manually.
 			
-			# Apparently, disallow_random_traits=yes doesn't preclude education
-			# traits, so clear the randomly-generated one Isis received.
-			# NOTE: This bug has been fixed by Captain Gars, so we can remove
-			#       this once the next patch is released.
-
-			character_event = { id = hip.0 }
-
-			# This seems a bit more appropriate... but it's just flavor. Open Elective
-			# still replaces Isis with a randomized dude (named Adam, of course) if you
-			# console-kill her.
-
+			character_event = { id = hip.2 } # Remove education traits
+			character_event = { id = hip.3 } # Remove leadership traits
+		
 			e_hip = {
+				# This seems a bit more appropriate... but it's just flavor. Open Elective
+				# still replaces Isis with a randomized dude (named Adam, of course) if you
+				# console-kill her.
+				
 				add_law = enatic_succession
 
 				# We're going to later force Primogeniture instead of Open Elective in order
@@ -86,9 +96,6 @@
 				# modifiers (particularly the targeting ones) and, FWIW, character modifiers
 				# to the new Isis cleanly as well.  If a duel depends upon an inherit=yes
 				# targeting opinion modifier, e.g., that state'd all still be valid.
-				
-				# Yes, she is indeed turning out to be the perfect referee / nepharious
-				# global mover and shaker...
 				
 				# add_law = succ_primogeniture
 			}
@@ -113,8 +120,21 @@
 				holder = ROOT
 			}
 		}
+		# Isis has her own nickname
+		# This should be reapplied should she ever die and be regenerated
+		give_nickname = nick_the_divine_lady
 	}
-	1999.1.1 = {
+	769.1.1 = {
+		set_global_flag = 769_start
+	}
+	867.1.1 = {
+		clr_global_flag = 769_start
+		set_global_flag = 867_start
+	}
+	1066.1.1 = {
+		clr_global_flag = 867_start
+	}
+	1400.1.1 = {
 		death = yes
 	}
 }
