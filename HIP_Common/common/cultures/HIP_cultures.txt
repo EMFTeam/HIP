@@ -1,9 +1,9 @@
 # Placeholder, more or less
 hip_culture_group = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	hip_culture = {
-		graphical_culture = hipculturegfx
+		graphical_cultures = { hipculturegfx }
 		color = { 0.1 0.1 0.1 }
 
 		male_names = {
