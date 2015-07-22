@@ -124,16 +124,6 @@
 		# This should be reapplied should she ever die and be regenerated
 		give_nickname = nick_the_divine_lady
 	}
-	769.1.1 = {
-		set_global_flag = 769_start
-	}
-	867.1.1 = {
-		clr_global_flag = 769_start
-		set_global_flag = 867_start
-	}
-	1066.1.1 = {
-		clr_global_flag = 867_start
-	}
 	1400.1.1 = {
 		death = yes
 	}
