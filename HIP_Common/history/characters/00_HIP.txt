@@ -1,7 +1,7 @@
 606060 = {
 	name = "Isis"
 	female = yes
-	dynasty = 0 # TODO: Real HIP dynasty
+	dynasty = 2606060 # HIP dynasty
 	religion = hip_religion
 	culture = hip_culture
 	diplomacy = 64
