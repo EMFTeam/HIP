@@ -31,6 +31,8 @@ HIP_TITLE_FOA;Lady of Infinite Light;;;;;;;;;;;;;x
 e_hip;Duat;;;;;;;;;;;;;x
 e_hip_adj;Atumic;;;;;;;;;;;;;x
 ISIS_DIVINE_VISION;[Root.GetTitledFirstName]'s Divine Vision;;;;;;;;;;;;;x
+e_emf_null; ;;;;;;;;;;;;;x
+e_emf_null_adj;;;;;;;;;;;;;;x
 #### TRAITS;;;;;;;;;;;;;;x
 isis;Mother of the Universe;;;;;;;;;;;;;x
 isis_desc;Mighty one, foremost of the goddesses. Ruler in Heaven, Queen on earth. All the gods are under her command.;;;;;;;;;;;;;x
