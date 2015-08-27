@@ -68,7 +68,6 @@
 			
 			character_event = { id = hip.2 } # Remove education traits
 			character_event = { id = hip.3 } # Remove leadership traits
-		
 
 			# Create a landless temporary title to make Isis immune to diplomatic
 			# assassination and the like, as apparently being in an unknown location
