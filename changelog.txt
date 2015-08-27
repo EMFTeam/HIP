@@ -1,7 +1,0 @@
-1.0
-	Tweaked hip.4 (punishment for impregnating Isis)
-	Removed the title b_hip
-	Allowed for Isis to be male (currently happens when she's console-killed)
-
-
-~~ previous changes undocumented ~~
