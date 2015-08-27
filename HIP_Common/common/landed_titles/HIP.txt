@@ -25,7 +25,7 @@ e_hip = {
 
 
 # For dynamically setting a kingdom to have no [real] de jure liege
-e_emf_null = {
+e_null = {
 	color = { 38 38 38 }
 	color2 = { 0 0 0 }
 	
@@ -36,7 +36,7 @@ e_emf_null = {
 	allow = { always = no }
 	
 	gain_effect = {
-		activate_title = { title = e_emf_null status = no }
-		e_emf_null = { unsafe_destroy_landed_title = THIS }
+		activate_title = { title = e_null status = no }
+		e_null = { unsafe_destroy_landed_title = THIS }
 	}
 }
