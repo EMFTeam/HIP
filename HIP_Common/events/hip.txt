@@ -78,7 +78,6 @@ character_event = {
 		any_demesne_title = {
 			limit = {
 				temporary = no
-				higher_tier_than = count
 				not = { title = e_hip }
 			}
 			destroy_landed_title = THIS
@@ -92,6 +91,9 @@ character_event = {
 		# In theory, most vanilla mechanisms by which Isis can gain a trait
 		# have been disabled (in EMF), but we'll cover them here in any case:
 		
+		character_event = { id = hip.2 } # Ed. traits
+		character_event = { id = hip.3 } # Leadership traits
+
 		remove_trait = stressed
 		remove_trait = depressed
 		remove_trait = lunatic
@@ -353,5 +355,90 @@ long_character_event = {
 		add_trait = blinded
 		add_trait = lunatic
 		add_trait = incapable
+	}
+}
+
+
+# hip.5
+# Handle the "death" of Isis (on_death on_action)
+character_event = {
+	id = hip.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	only_independent = yes
+
+	trigger = {
+		has_landed_title = e_hip
+	}
+	
+	immediate = {
+		# Get rid of our temporary title (was just for locking-up diplomacy)
+		any_demesne_title = {
+			limit = {
+				not = { title = e_hip }
+			}
+			unsafe_destroy_landed_title = THIS
+		}
+
+		create_character = {
+			random_traits = no
+			name = "Isis"
+			female = yes
+			age = 28
+			culture = hip_culture
+			religion = hip_religion
+			dynasty = 0 # TODO: c'mon, a HIP dynasty!
+			fertility = 0
+			health = 7
+
+			attributes = {
+				diplomacy = 64
+				martial = 64
+				stewardship = 64
+				intrigue = 64
+				learning = 64
+			}
+		}
+		new_character = {
+			set_mother = ROOT
+			recalc_succession = yes
+
+			character_event = { id = hip.2 } # Remove education traits
+			character_event = { id = hip.3 } # Remove leadership traits
+
+			add_trait = isis
+
+			ROOT = { abdicate_to = PREV } # Abdicate e_hip (sounds cooler in title history than 'Inherited')
+
+			character_event = { id = hip.6 } # Create temporary title and give nickname
+		}
+	}
+}
+
+
+# hip.6
+# Helper for hip.5 (ROOT = Isis v2.0, FROM = Isis v1.0), also used
+# by character history effect initially (ROOT = Isis v1.0).
+character_event = {
+	id = hip.6
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+
+		# Create a new temporary title to lock-out most diplomatic actions
+
+		create_title = {
+			tier = EMPEROR
+			landless = yes
+			temporary = yes
+			culture = ROOT
+			name = "ISIS_DIVINE_VISION" # "Goddess Isis's Divine Vision"
+			holder = ROOT
+		}
+
+		# Isis gets her own nickname, mostly to prevent her from getting random nicknames
+		give_nickname = nick_the_divine_lady
 	}
 }

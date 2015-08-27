@@ -5,3 +5,9 @@ on_yearly_pulse = {
         hip.0 # isis maintenance
     }
 }
+
+on_death = {
+	events = {
+		hip.5 # isis regeneration
+	}
+}
