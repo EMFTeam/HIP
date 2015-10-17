@@ -22,39 +22,16 @@
 			# Installer dynamically substitutes the appropriate combination
 			# of set_global_flags from here for each installed mod component.
 			
-			# If EMF, set_global_flag = EMF
-			# If PB, set_global_flag = project_balance
-			# If SWMH, set_global_flag = SWMH
-			# If ArkoCoA, set_global_flag = ArkoCoA
-			# If ArkoInterface, set_global_flag = ArkoInt
-			# If VIET, set_global_flag = VIET
-			# If VIET Immersion, set_global_flag = VIET_Immersion
-			
 			# <MOD_COMBO_FLAGS>
-			set_global_flag = EMF
+			# set_global_flag = EMF
 			# </MOD_COMBO_FLAGS>
-			
-			# TODO:
-			# Initiate various game state initialization common value-adds for
-			# HIP mods, such as things like populating all provinces with a
-			# province variable that represents their population density upon
-			# the selected map (holdings / land area, but normalized land area--
-			# derived from provinces.bmp and friends-- in general being the key
-			# independent variable in this example) or whatever.
 			
 			# TODO:
 			# Display welcome event for HIP, with a detailed summary of all the
 			# mod components currently employed in this install. That event's
 			# localisation is also dynamically-substituted by the installer.
 			
-			# TODO:
-			# Initiate various scenario initialization events in installed mods,
-			# based upon aforementioned global flag configuration.  EMF does this.
-			
-			if = {
-				limit = { has_global_flag = EMF }
-				character_event = { id = emf_startup.0 }
-			}
+			character_event = { id = emf_startup.0 }
 		}
 	}
 	28.1.1 = {
